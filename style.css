@@ -1,0 +1,63 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Bebas neue", "Gill Sans";
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: #4568dc;
+  background: -webkit-linear-gradient(to right, #b06ab3, #4568dc);
+  background: linear-gradient(to right, #b06ab3, #4568dc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.username {
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+span {
+  font-size: 24px;
+}
+
+.subtitle {
+  font-size: 34px;
+}
+
+.sub {
+  font-size: 34px;
+}
+
+.subdiv {
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+a {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.credit {
+  position: absolute;
+  top: 96%;
+}
